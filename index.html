@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um Convite Especial para Você</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-convite">
+        <div class="envelope" onclick="this.parentElement.classList.toggle('aberto')">
+            <div class="aba"></div>
+            <div class="corpo"></div>
+        </div>
+
+        <div class="convite">
+            <img src="1000105034.png" alt="Convite para nosso encontro">
+            
+            <form action="https://formspree.io/f/manpnbgw" method="POST" class="form-confirmacao">
+                <label for="nome">Seu nome:</label>
+                <input type="text" id="nome" name="Nome do Convidado" placeholder="Digite seu nome aqui..." required>
+                <button type="submit">Confirmar Presença</button>
+            </form>
+            </div>
+        
+        <p class="instrucao">Clique no envelope para abrir</p>
+    </div>
+
+</body>
+</html>
